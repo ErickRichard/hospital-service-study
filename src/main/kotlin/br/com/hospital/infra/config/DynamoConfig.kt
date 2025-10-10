@@ -25,7 +25,7 @@ class DynamoConfig {
             }
         }
             .region(Region.US_EAST_1)
-            .endpointOverride(URI.create("http://localhost:4566")) // Use the local DynamoDB endpoint
+            .endpointOverride(URI.create("http://localhost:4566"))
             .build())
             .build()
 }
